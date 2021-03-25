@@ -4,10 +4,6 @@ from injector import Injector
 from container.service_di_container import ServiceDiContainer
 from domain.car import Car
 
-# path
-pardir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.append(pardir)
-
 
 def main():
 
@@ -29,13 +25,15 @@ def main():
     injector = Injector(
         [ServiceDiContainer(config['services']['DieselEngine'])])
     car = injector.get(Car)
-    car.run()
+    rtn = car.run()
+    print(rtn)
 
     # ElectroEngine
     injector = Injector(
         [ServiceDiContainer(config['services']['ElectroEngine'])])
     car = injector.get(Car)
-    car.run()
+    rtn = car.run()
+    print(rtn)
 
 
 if __name__ == '__main__':
