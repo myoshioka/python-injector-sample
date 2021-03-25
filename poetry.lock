@@ -1,0 +1,18 @@
+[[package]]
+name = "injector"
+version = "0.15.0"
+description = "Injector - Python dependency injection framework, inspired by Guice"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "faef33dd128363db44619c38521dde7e3e7e969f14df4fde9b7e0f367ed76cfa"
+
+[metadata.files]
+injector = [
+    {file = "injector-0.15.0-py2.py3-none-any.whl", hash = "sha256:78cdce4b89a1635a6314d673a61516ff5af292337285898ffc2f2e72961d6773"},
+    {file = "injector-0.15.0.tar.gz", hash = "sha256:6f9602671e19ec8c85e69160b1b5469211a3ce749ccbe5d311e6ae987617ca33"},
+]
