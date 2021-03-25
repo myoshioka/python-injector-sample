@@ -7,5 +7,5 @@ class Engine(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def exec(self):
+    def exec(self) -> str:
         pass

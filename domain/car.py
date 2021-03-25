@@ -9,4 +9,5 @@ class Car(object):
         self._engine = engine
 
     def run(self):
-        self._engine.exec()
+        str_engine = self._engine.exec()
+        return f'This is {str_engine}'

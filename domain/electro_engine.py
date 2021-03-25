@@ -7,4 +7,4 @@ class ElectroEngine(Engine):
         pass
 
     def exec(self):
-        print('Electro Engine')
+        return 'Electro Engine'

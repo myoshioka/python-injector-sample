@@ -7,4 +7,4 @@ class DieselEngine(Engine):
         pass
 
     def exec(self):
-        print('Diesel Engine')
+        return 'Diesel Engine'
