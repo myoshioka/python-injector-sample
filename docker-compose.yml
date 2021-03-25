@@ -3,6 +3,9 @@ version: '3'
 services:
   workspace:
     build: .
-    volumes:
-    - .:/code
     tty: true
+    volumes:
+      - .:/code
+      - venv:/code/.venv
+volumes:
+  venv:
